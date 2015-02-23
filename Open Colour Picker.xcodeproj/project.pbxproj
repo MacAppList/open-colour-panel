@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		802A881B1A9B24BC0098D336 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 802A881A1A9B24BC0098D336 /* AppDelegate.m */; };
+		802A881D1A9B24BC0098D336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 802A881C1A9B24BC0098D336 /* main.m */; };
+		802A881F1A9B24BC0098D336 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802A881E1A9B24BC0098D336 /* Images.xcassets */; };
+		802A882E1A9B24BC0098D336 /* Open_Colour_PickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 802A882D1A9B24BC0098D336 /* Open_Colour_PickerTests.m */; };
+		802A88381A9B26240098D336 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 802A88371A9B26240098D336 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		802A88281A9B24BC0098D336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 802A880C1A9B24BC0098D336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802A88131A9B24BC0098D336;
+			remoteInfo = "Open Colour Picker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		802A88141A9B24BC0098D336 /* Open Colour Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Colour Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		802A88181A9B24BC0098D336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802A88191A9B24BC0098D336 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		802A881A1A9B24BC0098D336 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		802A881C1A9B24BC0098D336 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		802A881E1A9B24BC0098D336 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		802A88271A9B24BC0098D336 /* Open Colour PickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open Colour PickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		802A882C1A9B24BC0098D336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802A882D1A9B24BC0098D336 /* Open_Colour_PickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Open_Colour_PickerTests.m; sourceTree = "<group>"; };
+		802A88371A9B26240098D336 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		802A88111A9B24BC0098D336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802A88241A9B24BC0098D336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		802A880B1A9B24BC0098D336 = {
+			isa = PBXGroup;
+			children = (
+				802A88161A9B24BC0098D336 /* Open Colour Picker */,
+				802A882A1A9B24BC0098D336 /* Open Colour PickerTests */,
+				802A88151A9B24BC0098D336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		802A88151A9B24BC0098D336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				802A88141A9B24BC0098D336 /* Open Colour Picker.app */,
+				802A88271A9B24BC0098D336 /* Open Colour PickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		802A88161A9B24BC0098D336 /* Open Colour Picker */ = {
+			isa = PBXGroup;
+			children = (
+				802A88191A9B24BC0098D336 /* AppDelegate.h */,
+				802A881A1A9B24BC0098D336 /* AppDelegate.m */,
+				802A88371A9B26240098D336 /* MainMenu.xib */,
+				802A881E1A9B24BC0098D336 /* Images.xcassets */,
+				802A88171A9B24BC0098D336 /* Supporting Files */,
+			);
+			path = "Open Colour Picker";
+			sourceTree = "<group>";
+		};
+		802A88171A9B24BC0098D336 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				802A88181A9B24BC0098D336 /* Info.plist */,
+				802A881C1A9B24BC0098D336 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		802A882A1A9B24BC0098D336 /* Open Colour PickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				802A882D1A9B24BC0098D336 /* Open_Colour_PickerTests.m */,
+				802A882B1A9B24BC0098D336 /* Supporting Files */,
+			);
+			path = "Open Colour PickerTests";
+			sourceTree = "<group>";
+		};
+		802A882B1A9B24BC0098D336 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				802A882C1A9B24BC0098D336 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		802A88131A9B24BC0098D336 /* Open Colour Picker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802A88311A9B24BC0098D336 /* Build configuration list for PBXNativeTarget "Open Colour Picker" */;
+			buildPhases = (
+				802A88101A9B24BC0098D336 /* Sources */,
+				802A88111A9B24BC0098D336 /* Frameworks */,
+				802A88121A9B24BC0098D336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Open Colour Picker";
+			productName = "Open Colour Picker";
+			productReference = 802A88141A9B24BC0098D336 /* Open Colour Picker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		802A88261A9B24BC0098D336 /* Open Colour PickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802A88341A9B24BC0098D336 /* Build configuration list for PBXNativeTarget "Open Colour PickerTests" */;
+			buildPhases = (
+				802A88231A9B24BC0098D336 /* Sources */,
+				802A88241A9B24BC0098D336 /* Frameworks */,
+				802A88251A9B24BC0098D336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				802A88291A9B24BC0098D336 /* PBXTargetDependency */,
+			);
+			name = "Open Colour PickerTests";
+			productName = "Open Colour PickerTests";
+			productReference = 802A88271A9B24BC0098D336 /* Open Colour PickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		802A880C1A9B24BC0098D336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Lukas;
+				TargetAttributes = {
+					802A88131A9B24BC0098D336 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					802A88261A9B24BC0098D336 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 802A88131A9B24BC0098D336;
+					};
+				};
+			};
+			buildConfigurationList = 802A880F1A9B24BC0098D336 /* Build configuration list for PBXProject "Open Colour Picker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 802A880B1A9B24BC0098D336;
+			productRefGroup = 802A88151A9B24BC0098D336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				802A88131A9B24BC0098D336 /* Open Colour Picker */,
+				802A88261A9B24BC0098D336 /* Open Colour PickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		802A88121A9B24BC0098D336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802A881F1A9B24BC0098D336 /* Images.xcassets in Resources */,
+				802A88381A9B26240098D336 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802A88251A9B24BC0098D336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		802A88101A9B24BC0098D336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802A881D1A9B24BC0098D336 /* main.m in Sources */,
+				802A881B1A9B24BC0098D336 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802A88231A9B24BC0098D336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802A882E1A9B24BC0098D336 /* Open_Colour_PickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		802A88291A9B24BC0098D336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 802A88131A9B24BC0098D336 /* Open Colour Picker */;
+			targetProxy = 802A88281A9B24BC0098D336 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		802A882F1A9B24BC0098D336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		802A88301A9B24BC0098D336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		802A88321A9B24BC0098D336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Open Colour Picker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		802A88331A9B24BC0098D336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Open Colour Picker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		802A88351A9B24BC0098D336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Open Colour PickerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Open Colour Picker.app/Contents/MacOS/Open Colour Picker";
+			};
+			name = Debug;
+		};
+		802A88361A9B24BC0098D336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Open Colour PickerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Open Colour Picker.app/Contents/MacOS/Open Colour Picker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		802A880F1A9B24BC0098D336 /* Build configuration list for PBXProject "Open Colour Picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802A882F1A9B24BC0098D336 /* Debug */,
+				802A88301A9B24BC0098D336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		802A88311A9B24BC0098D336 /* Build configuration list for PBXNativeTarget "Open Colour Picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802A88321A9B24BC0098D336 /* Debug */,
+				802A88331A9B24BC0098D336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		802A88341A9B24BC0098D336 /* Build configuration list for PBXNativeTarget "Open Colour PickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802A88351A9B24BC0098D336 /* Debug */,
+				802A88361A9B24BC0098D336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 802A880C1A9B24BC0098D336 /* Project object */;
+}
